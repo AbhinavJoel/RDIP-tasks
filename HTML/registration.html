@@ -5,26 +5,25 @@
 </head>
 <body>
 <form>
-	<table>
-		<tr>
-			<td>
-				Name:
-			</td>
-			<td>
-				<input type="text" placeholder="Name" name="">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Course you want to register:
-			</td>
-			<td>
-				<input type="text" placeholder="Course" name="">
-			</td>
-		</tr>
-	</table>
+	<label>Name: </label>
+	<input type="text" id = "name" placeholder="Name" name="user_name"><br><br>
+	<label>Phone Number: </label>
+	<input type="number" placeholder="Phone" name=""><br><br>
+	<label>Choice of Course: </label>
+	<input type="radio" id="Bachelors" value="Bachelors" name="Course" placeholder="Course">
+	<label for="Bachelors">Bachelors</label>
+	<input type="radio" id="Masters" 
+	<label for="Masters">Masters</label><br><br>
+	<label>Description:</label>
+	<input type="text" id = "Description" placeholder="Description" name="course_description"><br><br>
+	<label>Subject Interests: </label>
+	<input type="checkbox" id="subject1" name="C" value="C">
+  			<label for="subject1"> C</label>
+ 			 <input type="checkbox" id="subject2" name="java" value="java">
+  			<label for="subject2"> Java</label>
+  			<input type="checkbox" id="subject3" name="Python" value="Python">
+  			<label for="subject3"> Python</label><br><br>
+  	<input type="submit" value="Submit">
 </form>
-
-
 </body>
 </html>
