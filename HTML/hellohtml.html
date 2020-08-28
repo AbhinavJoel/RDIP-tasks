@@ -12,7 +12,7 @@
  <style>
 table{
   outline-style: double;
-    border: 2px solid black;
+  border: 2px solid black;
   outline-color: red;
 }
 img{
@@ -68,6 +68,10 @@ body{
 h3{
   color: darkred;
 }
+
+
+
+
 </style>
 <div >
 <h1>Abhinav Joel T</h1>
@@ -84,6 +88,7 @@ h3{
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: right;
 }
 th, td {
   padding: 5px;
@@ -94,30 +99,32 @@ th, td {
 <body>
 <div class="shadowbox2">
 <h2>Previous Semester Marks</h2>
-    <table style="width:40%">
+    <table style="width:40%; text-align:right;" >
       <tr>
+        <div style='float: left; text-align: left'>
         <th>Subject</th>
-        <th>Marks(25)</th>
+        </div>
+        <th>
+        <div style='float: right; text-align: right'>Marks(25)
+        </th>
+        </div>
       </tr>
       <tr>
-        <td>JAVA</td>
-        <td>25</td>
+        <td style="border: 1px solid black; width: 200px;">
+           <div style="width: 50%; float: left; text-align: left;">java</div>
+        </td>
+        <td >
+           <div style="width: 50%; float: right; text-align: right;">25</div>
+        </td>
       </tr>
+
       <tr>
-        <td>DBMS</td>
-        <td>24</td>
-      </tr>
-      <tr>
-        <td>OS</td>
-        <td>25</td>
-      </tr>
-      <tr>
-        <td>DM</td>
-        <td>25</td>
-      </tr>
-      <tr>
-        <td>BEFA</td>
-        <td>23</td>
+        <td style="border: 1px solid black; width: 200px;">
+           <div style="width: 50%; float: left; text-align: left;">DBMS</div>
+        </td>
+        <td >
+           <div style="width: 50%; float: right; text-align: right;">25</div>
+        </td>
       </tr>
     </table>
 </div>
